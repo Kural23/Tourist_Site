@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist</title>
+    <link rel="icon" type="image/x-icon" href="z-asset/img/mountain-sun-solid.svg">
+    <link rel="stylesheet" href="z-asset/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">     
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 d-flex border-bottom sticky-top">
+                <div class="container">
+                    <i class="fa-solid fa-mountain-sun icon"></i>
+                  <a class="navbar-brand ms-3" href="#">Grand Tour</a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      <a class="nav-link" href="#about">About Us</a>
+                      <a class="nav-link" href="#service">Service</a>
+                      <a class="nav-link" href="#package">Package</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                      <button type="button" class="btn btn-warning mx-3 border" data-bs-toggle="modal" data-bs-target="#booking">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="container color" id="home">
+                <div class="row min-vh-100">
+                    <div class="col-md-8  text-center my-auto">
+                        <h1 class="my-auto">Never Let Your Memories Be</h1>
+                        <h1>Greater Than Your Dreams.</h1>
+                        <p>Loremsapiente.el, doloremque conseq Voluptates, repellat?</p>
+                        <a href="#contact" style="text-decoration: none;"><button type="button" class="btn btn-outline-light mx-3">Contact Us</button></a>
+                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#booking">Book A Tour</button>
+                    </div>  
+              </div>
+               </div>
+
+               <div class="modal fade" id="booking" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header ">
+                      <h5 class="modal-title" id="exampleModalLabel">Book Your Tour</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     <div class="row pb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Name" aria-label="Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                        </div>
+                     </div>
+                     <div class="row pb-3">
+                        <div class="col">
+                            <input type="tel" class="form-control" placeholder="Phone no" aria-label="Phone no" required>
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Date to Visit" aria-label="Date to Visit">
+                        </div>
+                     </div>
+                     <div class="row pb-3">
+                        <div class="col">
+                                 <select  class="form-select" aria-label="Default select example">
+                                    <option selected>Adult Count</option>
+                                   <option value="1">
+                                   <option value="2">
+                                   <option value="3">
+                                   <option value="4">
+                                   <option value="5 or more">
+                                 </select>
+                        </div>
+                        <div class="col">
+                            <select  class="form-select" aria-label="Default select example">
+                            <option selected>Kids Count</option>
+                              <option value="0">
+                              <option value="1">
+                              <option value="2">
+                              <option value="3">
+                              <option value="4 or more">
+                              </select>
+                        </div>
+                     </div>
+                     <div class="row pb-3">
+                        <div class="col">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
+                     </div>
+                    </div>
+                    <div class="modal-footer mx-auto">
+                      <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- Modal end-->
+      
+ 
+    
+    <div class="container" id="about">
+        <div class="row pt-5 pb-5 d-flex justify-content-between">
+            <div class="col-md-6 mt-3  p-3 ">
+             <h3>We Will Take You To The Top Destination In The World, <b>Explore With Us!</b></h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium in quos natus totam porro rerum, quis doloribus repellat 
+                eius? Illo dolorum aliquid minima molestias! Quis velit sapiente quae fugiat iure, aliquid error reprehenderit odio aliquam molestias asperiores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, accusantium? Id vitae tempora nam saepe incidunt cupiditate, numquam fugit  praesentium, sit amet!</p>
+            </div>
+            <div class="col-md-4 mt-3  p-4 photo">
+              <img src="z-asset/img/p1.jpg" alt="sunset" class="img-fluid mx-auto">
+              <div class="overlay">
+                <div class="text">The Journey Of A Thousand Miles Begins With A Single Step.</div>
+              </div>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-face-smile icon pb-2" ></i>
+                <h3>1000+</h3>
+                <P>HAPPY CUSTOMERS</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-car icon pb-2" ></i>
+                <h3>2271+</h3>
+                <P>TOURS & TRAVELS</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-location-dot icon pb-2" ></i>
+                <h3>200+</h3>
+                <P>DESTINATION</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-gift icon pb-2" ></i>
+                <h3>20+ <span>Years</span></h3>
+                <P>EXPERIENCE</P>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-5" id="service">
+        <h2 class="text-center">Our Service</h2>
+        <div class="row mt-5">
+            <div class="col-md" mt-3 >
+                <img src="z-asset/img/room.jpg" alt="rooms"  class="img-fluid mx-auto">
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-bed icon pb-2" ></i>
+                <h3>Accomodation</h3>
+                <P>Duis nisi sapien, elementum et finibus et fermen eget,elementum et finibus et  aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-snowflake icon pb-2" ></i>
+                <h3>Winter Tours</h3>
+                <P>Duis nisi sapien, elementum et finibus et elementum et finibus et elementum et finibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-people-group icon pb-2" ></i>
+                <h3>Exp Agents</h3>
+                <P>Duis nisi sapien, elementum et fin elementum et finibus et ibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md" mt-3 >
+                <img src="z-asset/img/booking.webp" alt="rooms"  class="img-fluid mx-auto">
+
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-money-bill-1-wave icon pb-2"></i> 
+                <h3>Low Prices</h3>
+                <P>Duis nisi sapien, elementum et fin elementum et finibus et ibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-hotel icon pb-2" ></i>
+                <h3>Easy Booking</h3>
+                <P>Duis nisi sapien, elementum et fin elementum et finibus et ibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto my-auto">
+                <i class="fa-solid fa-coins icon pb-2" ></i>
+                <h3>Best Packages</h3>
+                <P>Duis nisi sapien, elementum et fin elementum et finibus et ibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-warning pt-5 pb-5">
+        <h2 class="text-center">How To Plan Your Trip</h2>
+          <div class="row pt-4">
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-location icon_white pb-2" ></i>
+                <h4>PICK DESTINATION</h4>
+                <P>Duis nisi sapien, elementum et finibus et elementum et finibus et elementum et finibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-regular fa-calendar-days icon_white pb-2"></i>
+                <h4>SELECT DATE</h4>
+                <P>Duis nisi sapien, elementum et finibus et elementum et finibus et elementum et finibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+            <div class="col-md  mt-3 text-center mx-auto">
+                <i class="fa-solid fa-van-shuttle icon_white pb-2"></i>
+                <h4>ENJOY THE TRIP</h4>
+                <P>Duis nisi sapien, elementum et finibus et elementum et finibus et elementum et finibus et fermen eget, aliquet etleo. Mauris vel ex.</P>
+            </div>
+          </div>
+    </div>  
+    <div class="container pt-5" id="package">
+        <h2 class="text-center">Discover Our Tour Packages</h2>
+        <p class="text-center">Vestibulum tellus neque, sodales vel mauris at, rhoncus finibus augue. Vestibulum urna ligula, molestie at ante ut, finibus vulputate felis.</p>
+        <div class="row mt-5 d-flex justify-content-between">
+            <div class="col-md mt-2">
+                <div class="card" >
+                    <div class="t_img">
+                    <img src="z-asset/img/paris.webp" class="card-img-top" alt="...">
+                    <span class="badge  bg-warning " style="font-size: 1.20rem;"><i class="fa-solid fa-tag me-2" style="color: #ffffff;"></i>20$</span>
+                    </div>
+                    <div class="card-body">
+                      <i class="fa-solid fa-location-dot icon3 card-text pe-2" ></i><span>Paris, France.</span>
+                      <h5 class="card-text">Sodales Vel Mauris</h5>
+                      <p class="card-text">Some quick example text to build on the card titlhe card's content.</p>
+                      <i class="fa-solid fa-clock icon3 card-text pe-2"></i></i><span>Duration : 10 Days</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md mt-2">
+                <div class="card" >
+                    <div class="t_img">
+                    <img src="z-asset/img/los.webp" class="card-img-top" alt="...">
+                    <span class="badge  bg-warning " style="font-size: 1.20rem;"><i class="fa-solid fa-tag me-2" style="color: #ffffff;"></i>20$</span>
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-location-dot icon3 card-text pe-2" ></i><span>Los Angles, USA.</span>
+                        <h5 class="card-text">Sodales Vel Mauris</h5>
+                        <p class="card-text">Some quick example text to build on the card titlhe card's content.</p>
+                        <i class="fa-solid fa-clock icon3 card-text pe-2"></i></i><span>Duration : 10 Days</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md mt-2">
+                <div class="card" >
+                    <div class="t_img">
+                    <img src="z-asset/img/agra.cms" class="card-img-top" alt="..."  >
+                    <span class="badge  bg-warning " style="font-size: 1.20rem;"><i class="fa-solid fa-tag me-2" style="color: #ffffff;"></i>20$</span>
+                </div>
+                    <div class="card-body">
+                     <i class="fa-solid fa-location-dot icon3 card-text pe-2" ></i><span>Agra, India.</span>
+                      <h5 class="card-text">Sodales Vel Mauris</h5>
+                      <p class="card-text">Some quick example text to build on the card titlhe card's content.</p>
+                      <i class="fa-solid fa-clock icon3 card-text pe-2"></i></i><span>Duration : 10 Days</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md mt-2">
+                <div class="card" >
+                    <div class="t_img">
+                    <img src="z-asset/img/varkala.avif" class="card-img-top" alt="..." >
+                    <span class="badge  bg-warning " style="font-size: 1.20rem;"><i class="fa-solid fa-tag me-2" style="color: #ffffff;"></i>20$</span>
+                </div>
+                    <div class="card-body">
+                     <i class="fa-solid fa-location-dot icon3 card-text pe-2" ></i><span>Varkala, India.</span>
+                      <h5 class="card-text">Sodales Vel Mauris</h5>
+                      <p class="card-text">Some quick example text to build on the card titlhe card's content.</p>
+                      <i class="fa-solid fa-clock icon3 card-text pe-2"></i></i><span>Duration : 10 Days</span>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4 mb-5 mx-auto">
+        <a href="package.html" style="text-decoration: none;" class="text-center"><button type="button" class="btn btn-warning ">View All Packages</button></a>
+        </div>  
+    </div>
+    <div class="container mb-5" id="contact">
+        <h2 class="text-center">Get in touch with us !</h2>
+
+        <div class="row d-flex justify-content-between mt-3">
+            <div class="col-md-3 mt-2 mx-auto my-auto text-center mt-3">
+                <i class="fa-solid fa-location-dot icon pb-2"></i>
+                <h5>Location</h5>
+                <p>The company name
+                    Addison Township, IL, USA.</p>
+            </div>
+            <div class="col-md-3 mt-2 mx-auto my-auto text-center mt-3">
+                <i class="fa-solid fa-phone-volume icon pb-2""></i>
+                <h5>Phone & Email</h5>
+                <p class="mb-0">+(122) 123 456 7890</p>
+                <p >info@examplemail.com</p>
+            </div>
+            <div class="col-md-3 mt-2 mx-auto my-auto text-center mt-3 ">
+                <i class="fa-solid fa-comments icon pb-2"></i>
+                <h5>Stay In Touch</h5>
+                <a href="#"><i class="fa-brands fa-square-facebook app p-2" style="color: #2b65ca;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter app p-2" style="color: #74C0FC;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram app p-2" style="color: #f06666;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube app p-2" style="color: #fb1313;"></i></a>
+            </div>
+        </div>
+
+        <div class="row mt-4 d-flex justify-content-between">
+            <div class="col-md-6 mt-2 p-2  shadow">
+                <input type="text" class="form-control mb-2" placeholder="Name" aria-label="Name ">
+                <input type="email" class="form-control mb-2" placeholder="Email" aria-label="Email">
+                <input type="tel" class="form-control mb-2" placeholder="Phone Number" aria-label="Phone Number">
+                <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3" placeholder="Message" aria-label="Message"></textarea>
+                <div class="row mt-4 mb-3 mx-auto text-center d-flex justify-content-around">
+                    <div class="col-4">
+                        <button type="button" class="btn btn-warning ">Message</button>
+                    </div> 
+                </div> 
+            </div>
+            <div class="col-md-5 mt-3">
+                <h4>Do You Have Any Questions About Us? Write To Us.</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sequi delectus ad perferendis minima nihil soluta ea adipisci nesciunt vitae officia qui libero dignissimos inventore quasi, animi beatae cum in?</p>
+                <h4>Office Hours</h4>
+                <p>Monday to Friday : 09 am to 06 pm</p>
+                 <p>Saturday and Sunay : 10 am to 04 pm</p>
+            </div>
+        </div>
+
+    </div>
+   <div class="container-fluid bg-light pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md mt-3">
+                <h4>Address</h4>
+                <p class="mb-0">Location : 1234 lock, Charlotte, North Carolina, United States</p>
+                <p class="mb-0">Phone : +12 534894364</p>
+                <p class="mb-0">Email : info@example.com</p>
+                <p class="mb-0">Fax : +12 534894364</p>
+            </div>
+            <div class="col-md mt-3">
+                <h4>About Us</h4>
+                <p>Vivamus magna justo, laci niats eget consectetur sed, conval lis at tellus. Nulla quis lorem ipnt libero. Lorem ipsum dolor</p>
+                <a href="#"><i class="fa-brands fa-square-facebook app" style="color: #2b65ca;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter app" style="color: #74C0FC;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram app" style="color: #f06666;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube app" style="color: #fb1313;"></i></a>
+            </div>
+            <div class="col-md mt-3">
+                <h4>Travel Places</h4>
+                <p class="mb-0">New Zealand</p>
+                <p class="mb-0">Paris, France</p>
+                <p class="mb-0">Los Angles</p>
+                <p class="mb-0">Darlington</p>
+                <p class="mb-0">goa</p>
+                <p class="mb-0">Darlington</p>
+            </div>
+            <div class="col-md mt-3">
+                <h4>Newsletter</h4>
+                <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="z-asset/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+</body>
+</html>

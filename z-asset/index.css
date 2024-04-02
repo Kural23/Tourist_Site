@@ -1,0 +1,66 @@
+
+::selection{
+    background-color:rgb(252, 177, 39);
+    color: white;
+}
+.color{
+    background-image: linear-gradient( yellow,orange);
+}
+.icon{
+    color: rgb(252, 177, 39);
+    font-size: 1.73em;
+}
+.icon_white{
+    color: white;
+    font-size: 1.73em;
+}
+.icon3{
+    color: rgb(252, 177, 39);
+    font-size: 1.00em;
+}
+
+.photo{
+    position:relative;
+}
+.overlay {
+    position: absolute;
+    bottom:100%;
+    left: 1;
+    right: 1;
+    background-color:rgb(252, 177, 39);
+    overflow: hidden;
+    width: 90%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+
+  .photo:hover .overlay {
+   bottom: 0;
+    height: 95%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .t_img{
+    position: relative;
+    display: inline-block;
+  }
+  .badge{
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+  }
+  .app{
+    font-size: 1.20em;
+  }
+
